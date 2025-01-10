@@ -7,3 +7,27 @@
   /* --background: #ffffff; */
   /* --foreground: #171717; */
 }
+
+
+.slick-slide{
+  margin-right: 20px !important;
+}
+.slick-prev, .slick-next{
+  background-color: #1F2937 !important;
+height: 30px !important;
+width: 30px !important;
+  top: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border-radius: 40px;
+}
+.slick-next {
+  right: -50px !important;
+}
+.slick-prev {
+  left: -50px !important;
+}
+.slick-list{
+  height: 200px !important;
+}
