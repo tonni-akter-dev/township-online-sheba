@@ -11,7 +11,6 @@ const UsersComment = () => {
         slidesToShow: 3,
         slidesToScroll: 3
     };
-
     return (
         <div className='max-w-[1000px] w-full mx-auto cursor-pointer mt-10'>
             <h2 className='text-4xl text-center font-bold mb-8 capitalize'>What our users say</h2>
