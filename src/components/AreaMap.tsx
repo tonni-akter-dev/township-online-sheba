@@ -18,16 +18,17 @@ const AreaMap = () => {
     return (
         <div className="container  max-w-[1400px] mx-auto flex flex-col lg:flex-row items-center gap-8 py-10">
             {/* Google Map */}
-            <LoadScript googleMapsApiKey="YOUR_GOOGLE_MAPS_API_KEY">
-                <GoogleMap
-                    mapContainerStyle={containerStyle}
-                    center={center}
-                    zoom={10}
-                >
-                    {/* Marker at Satkhira */}
-                    <Marker position={center} />
-                </GoogleMap>
-            </LoadScript>
+            <div style={{
+                maxWidth: "100%",
+                overflow: "hidden",
+                color: "red",
+                width: "800px",
+                height: "500px",
+            }}>
+                <div id="gmap-canvas"
+                    style={{ height: "100%", width: "100%", maxWidth: "100%" }}
+                ><iframe style={{ height: "100%", width: "100%", maxWidth: "100%" }}
+                    frameBorder="0" src="https://www.google.com/maps/embed/v1/place?q=khulna&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a className="googl-ehtml" href="https://www.bootstrapskins.com/themes" id="make-map-infor-mation">premium bootstrap themes</a><style>#gmap-canvas img</style></div>
 
             {/* Information Section */}
             <div className="text-left">

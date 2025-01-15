@@ -27,9 +27,9 @@ const Header = () => {
                 className={`${isMenuOpen ? "block" : "hidden"} w-full md:w-auto md:flex items-center mt-4 md:mt-0`}>
                 <ul className="flex flex-col justify-center md:flex-row space-y-2 md:space-y-0 md:space-x-6">
                     <li><a href="#" className="text-lg font-medium hover:text-gray-700">Home</a></li>
-                    <li><a href="#" className="text-lg font-medium hover:text-gray-700">About</a></li>
-                    <li><a href="#" className="text-lg font-medium hover:text-gray-700">App</a></li>
-                    <li><a href="#" className="text-lg font-medium hover:text-gray-700">Contact</a></li>
+                    <li><a href="/about" className="text-lg font-medium hover:text-gray-700">About</a></li>
+                    <li><a href="/apps" className="text-lg font-medium hover:text-gray-700">App</a></li>
+                    <li><a href="/contact" className="text-lg font-medium hover:text-gray-700">Contact</a></li>
                 </ul>
             </nav>
 
